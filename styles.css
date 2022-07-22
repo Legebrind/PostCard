@@ -10,17 +10,18 @@ body {
 	height: 300px;
 	margin: auto;
 }
-.postcard-header {
+.postcard-header,
+.postcard-body {
 	display: flex;
+	padding-left: 15px;
+	padding-top: 15px;
+	padding-right: 15px;
 }
 #cabecera {
 	width: 350px;
 	margin: 0px;
 }
 
-.postcard-body {
-	display: flex;
-}
 .pcinput {
 	border: none;
 	border-bottom: 1px grey solid;
@@ -34,4 +35,7 @@ body {
 button {
 	background-color: grey;
 	padding: 10px;
+}
+.body-right {
+	padding-left: 15px;
 }
